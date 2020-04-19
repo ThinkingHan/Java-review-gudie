@@ -8,8 +8,7 @@
 
 **String字符串**
 
->**格式:**set key value
-
+>**格式:** set key value
 string类型是二进制安全的。意思是redis的string可以包含任何数据。比如jpg图片或者序列化的对象 。
 string类型是Redis最基本的数据类型，一个键最大能存储512MB。
 
@@ -32,13 +31,13 @@ key 对应 list 中删除 count 个和 value 相同的元素
 
 **Set（集合）**
 
->**格式:**sadd  name  value
+>**格式:** sadd  name  value
 Redis的Set是string类型的无序集合。
 集合是通过哈希表实现的，所以添加，删除，查找的复杂度都是O(1)。
 
 **zset(sorted set：有序集合)**
 
->**格式:**zadd  name score value
+>**格式:** zadd  name score value
 Redis zset 和 set 一样也是string类型元素的集合,且不允许重复的成员。
 不同的是每个元素都会关联一个double类型的分数。redis正是通过分数来为集合中的成员进行从小到大的排序。
 zset的成员是唯一的,但分数(score)却可以重复。
@@ -66,11 +65,15 @@ Redis 中的事务是一组命令的集合，是 Redis 的最小执行单位，�
 事务可以理解为一个打包的批量执行脚本，但批量指令并非原子化的操作，中间某条指令的失败不会导致前面已做指令的回滚，也不会造成后续的指令不做。
 
 **3. Redis 事务相关命令有哪些？**
->**DISCARD：**取消事务，放弃执行事务块内的所有命令。
-**EXEC：**执行所有事务块内的命令。
-**MULTI：**标记一个事务块的开始。
-**WATCH:**Redis Watch 命令用于监视一个(或多个) key ，如果在事务执行之前这个(或这些) key 被其他命令所改动，那么事务将被打断
-**UNWATCH ：**取消 WATCH 命令对所有 key 的监视。
+>**DISCARD：** 取消事务，放弃执行事务块内的所有命令。
+>
+>**EXEC：** 执行所有事务块内的命令。
+
+>**MULTI：** 标记一个事务块的开始。
+
+>**WATCH:** Redis Watch 命令用于监视一个(或多个) key ，如果在事务执行之前这个(或这些) key 被其他命令所改动，那么事务将被打断
+
+>**UNWATCH ：** 取消 WATCH 命令对所有 key 的监视。
 
 ## 三、Redis持久化和缓存管理
 **1.Redis持久化是什么？**
