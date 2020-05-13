@@ -2,15 +2,14 @@
 
 之前有分享过这份知识点笔记的初稿，现在又对知识点笔记进行了一定的优化。于是有了现在的V2.0版本的面试手册。当然除了在线版还有本地文档版本
 
-![](https://github.com/ThinkingHan/MyProject/blob/master/img/1113.png)
+![](https://upload-images.jianshu.io/upload_images/11474088-1d457512352d1efa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 关于更新
 《Java架构进阶核心知识点笔记》 预计一个月左右会有一次内容更新和完善，**有需要本地文档pdf学习的朋友可以加Q群：578486082 管理处可以免费获取 或者加管理QQ：3410981053 免费获取！**
 
-  点击链接加入【java高级程序猿①】：https://jq.qq.com/?_wv=1027&k=5WbQ4m4
-  
-![](https://github.com/ThinkingHan/MyProject/blob/master/img/21.png)
+点击链接加入【java高级程序猿①】：https://jq.qq.com/?_wv=1027&k=5WbQ4m4
 
+![](https://upload-images.jianshu.io/upload_images/11474088-c851bf5cba88dd74.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 **废话不多说，Java架构进阶核心知识点笔记为第二版，内容有以下板块：**
 
