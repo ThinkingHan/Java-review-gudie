@@ -7,7 +7,7 @@
 ## 关于更新
 《Java架构进阶核心知识点笔记》 预计一个月左右会有一次内容更新和完善，**有需要本地文档pdf学习的朋友可以关注我的公众号【码农清风】 后台回复【2020】即可免费获取！**
 
-![](https://github.com/ThinkingHan/Java-review-gudie/blob/master/img/%E5%B0%8F%E5%AF%92.png)
+![](https://upload-images.jianshu.io/upload_images/11474088-d5aeea60936abf1e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 **废话不多说，Java架构进阶核心知识点笔记为第二版，内容有以下板块：**
 
