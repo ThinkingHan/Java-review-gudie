@@ -7,7 +7,11 @@
 >
 >> **如果觉得看起来比较麻烦，需要PDF版本，或是需要更多学习资料、面试资料，进阶、架构资料，都可以加上[QQ群](#contanct-me)领取。祝愿每一位有追求的Java开发同胞都能进大厂拿高薪！**
 
+Java架构交流QQ群：**930254941**  （备注一下GitHub，免得被认成打无良广告的）
 
+快捷加群方式：[点击此处加入群聊Java架构交流群](https://jq.qq.com/?_wv=1027&k=Xu0ju5PW)
+
+![](https://upload-images.jianshu.io/upload_images/11474088-f15f3310f6b7610f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # Java-review-Gudie
 【Java快速面试指南目录】Java基础、异常、集合、并发编程、JVM、Spring全家桶、MyBatis、Redis、数据库、中间件MQ、Dubbo、Linux、Tomcat、ZooKeeper、Netty等等。包含了作为一个Java工程师在面试中需要用到或者可能用到的绝大部分知识。欢迎大家阅读，持续更新中…
