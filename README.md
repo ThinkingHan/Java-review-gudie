@@ -76,6 +76,6 @@ Java架构交流QQ群：**930254941**  （备注一下GitHub，免得被认成�
 
 ## 微信公众号
 
-**码农清风**
+**阿风的架构笔记**
 
-![](https://upload-images.jianshu.io/upload_images/11474088-febaefa23584b47f.gif?imageMogr2/auto-orient/strip)
+![](https://upload-images.jianshu.io/upload_images/11474088-91d39d0545be561d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
