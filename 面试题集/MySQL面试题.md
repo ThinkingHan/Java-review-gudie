@@ -83,6 +83,9 @@ InnoDB 和 MyISAM 最大的区别是 InnoDB 支持事务，而 MyISAM 不支持�
 ### InnoDB 有哪些特性？
 
 **1）插入缓冲(insert buffer)**：对于非聚集索引的插入和更新，不是每一次直接插入索引页中，而是首先判断插入的非聚集索引页是否在缓冲池中，如果在，则直接插入，否则，先放入一个插入缓冲区中。好似欺骗数据库这个非聚集的索引已经插入到叶子节点了，然后再以一定的频率执行插入缓冲和非聚集索引页子节点的合并操作，这时通常能将多个插入合并到一个操作中，这就大大提高了对非聚集索引执行插入和修改操作的性能。
+ps: 
+- 在MySQL5.5之前，叫插入缓冲(insert buffer)，只针对insert做了优化；
+- 之后版本对delete和update也有效，叫做写缓冲(change buffer)。
 
 **2）两次写(double write)**：两次写给 InnoDB 带来的是可靠性，主要用来解决部分写失败(partial page write)。doublewrite 有两部分组成，一部分是内存中的 doublewrite buffer ，大小为 2M，另外一部分就是物理磁盘上的共享表空间中连续的 128 个页，即两个区，大小同样为 2M。当缓冲池的作业刷新时，并不直接写硬盘，而是通过 memcpy 函数将脏页先拷贝到内存中的 doublewrite buffer，之后通过 doublewrite buffer 再分两次写，每次写入 1M 到共享表空间的物理磁盘上，然后马上调用 fsync 函数，同步磁盘。如下图所示
 
